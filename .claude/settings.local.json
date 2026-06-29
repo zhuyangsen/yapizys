@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(node *)",
+      "Bash(cp /Users/kevin/WORK/IntelliJIdea2024/yapi/config.json /Users/kevin/WORK/IntelliJIdea2024/config.json)",
+      "Bash(rm -f /Users/kevin/WORK/IntelliJIdea2024/config.json)",
+      "Bash(npm install *)",
+      "Bash(curl -s http://127.0.0.1:3000/prd/assets.js)",
+      "Bash(curl -s -D - http://127.0.0.1:3000/prd/index@4bf34ac5d0d400162c8b.js)",
+      "Bash(curl -s -D - http://127.0.0.1:3000/prd/manifest@f2f4bd774d6c221b3d5f.js)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}, Content-Type: %{content_type}\" http://127.0.0.1:3000/)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
