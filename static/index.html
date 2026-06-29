@@ -8,14 +8,16 @@
 <title>YApi Pro-高效、易用、功能强大的可视化接口管理平台</title>
 <link rel="icon" type="image/png" sizes="192x192" href="/image/favicon.png">
 <style>
+  /* 显示 SVG 图标 */
   .anticon > svg {
     display: inline-block;
     vertical-align: baseline;
   }
-  .anticon:before {
+  /* 仅当图标内存在 SVG 子元素时才隐藏 ::before，避免双图标影响其他图标 */
+  .anticon:has(> svg):before {
     display: none !important;
   }
-  .ant-modal-close-x:before {
+  .ant-modal-close-x:has(> svg):before {
     display: none !important;
   }
 </style>
